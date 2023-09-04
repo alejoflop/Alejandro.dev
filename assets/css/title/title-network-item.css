@@ -1,0 +1,35 @@
+.title__network__github {
+    background-image: url(/assets/img/GitHub.svg);
+    height: 40px;
+    width: 40px;
+    transition: all 250ms;
+}
+
+.title__network__github:hover {
+    background-image: url(/assets/img/github-hover.svg);
+}
+
+.title__network__linkedin {
+    background-image: url(../../img/Link.svg);
+    height: 40px;
+    width: 40px;
+    transition: all 250ms;
+}
+
+.title__network__linkedin:hover {
+    background-image: url(../../img/linkedin-hover.svg);
+}
+
+@media screen and (min-width: 0px) {
+    .title__network {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title__network {
+        display: flex;
+        justify-content: left;
+    }
+}

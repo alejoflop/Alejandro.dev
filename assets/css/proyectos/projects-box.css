@@ -1,0 +1,38 @@
+.projects__box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: var(--white);
+    width: auto;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 5px #00000060;
+}
+
+.projects__box.swap {
+    flex-flow: row-reverse;
+} 
+
+@media screen and (min-width: 0px) {
+    .projects__box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .projects__box.swap {
+        flex-flow: column;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .projects__box {
+        flex-direction: row;
+    }
+    .projects__box.swap {
+        flex-flow: row-reverse;
+    } 
+}

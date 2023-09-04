@@ -1,0 +1,12 @@
+@import url(./title-container.css);
+@import url(./title-bio.css);
+@import url(./title-subsection.css);
+@import url(./title-network.css);
+@import url(./title-network-item.css);
+
+.title {
+    height: 95vh;
+    background: var(--lightest-variation);
+    display: flex;
+    align-items: center;
+}

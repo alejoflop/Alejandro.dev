@@ -1,0 +1,6 @@
+.project__text {
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    color: var(--dark-variation);
+}

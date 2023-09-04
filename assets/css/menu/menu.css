@@ -1,0 +1,16 @@
+@import url(./menu-title.css);
+@import url(./menu-list.css);
+@import url(./menu-list-item.css);
+@import url(./abrir-cerrar.css);
+
+.menu {
+    background: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+    box-shadow: 0 0 5px #00000060;
+    margin-bottom: 2px;
+}
+
+

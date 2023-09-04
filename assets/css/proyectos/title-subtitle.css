@@ -1,0 +1,12 @@
+.projects__title {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.projects__subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}

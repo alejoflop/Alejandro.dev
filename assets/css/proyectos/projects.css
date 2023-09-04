@@ -1,0 +1,33 @@
+@import url(./title-subtitle.css);
+@import url(./projects-box.css);
+@import url(./projects-img.css);
+@import url(./projects-info.css);
+@import url(./project-title.css);
+@import url(./project-text.css);
+@import url(./project-tech.css);
+@import url(./project-description.css);
+
+.projects {
+    background: var(--lightest-variation);
+}
+
+@media screen and (min-width: 0px) {
+    .projects {
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projects {
+        padding-top: 7.813rem;
+        padding-bottom: 7.813rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projects {
+        padding-top: 9.375rem;
+        padding-bottom: 9.375rem;
+    }
+}
