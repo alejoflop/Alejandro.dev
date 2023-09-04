@@ -64,7 +64,7 @@
         left: 0;
         background: var(--white);
         width: 100%;
-        height: -webkit-fill-available; /* auto */
+        height: 100%; /* auto */
         transform: translate(-100%);
         transition: 0.3s ease all;
     }
